@@ -1,0 +1,250 @@
+@import "tailwindcss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #161513;
+    color: white;
+    height: 100vh;
+    font-family: "poppins";
+}
+
+.navbar {
+    padding-top: 20px;
+}
+
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.grechen-fuemen-regular {
+    font-family: "Grechen Fuemen", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Name {
+    font-family: "Grechen Fuemen";
+}
+/* @media (max-width: 639px)  {
+    .connect{
+        padding: 6px 13px ;
+
+    
+}
+} */
+
+.connect {
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    padding: 10px 20px;
+    transition: 1s;
+    font-family: poppins;
+
+}
+.connect2 {
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    padding: 10px 20px;
+    transition: 2s;
+
+}
+
+.connect:hover {
+    transform: scale(1.2);
+}
+
+.connect2:hover {
+    /* border: 1px solid white; */
+    background: fuchsia;
+}
+
+.profile{
+    border-radius: 50%;
+    height: 250px;width: 250px;
+    margin:auto;
+   
+    margin-top: 50px;
+    margin-bottom: 20px;
+    }
+    .name{
+        background: linear-gradient(270deg, #DA7C25 10%, #B923E1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /* margin: auto; */
+
+    }
+    .intro{
+        font-family: poppins;
+        margin-bottom: 15px;
+    }
+    .resume{
+        padding: 10px 35px;
+        transition: 2s
+        /* font-family: poppins; */
+    }
+    .resume:hover{
+        background: #DA7C25;
+        
+     
+    }
+    .p{
+        font-family: poppins;
+   
+    }
+    hr{
+        background: linear-gradient(270deg, #DA7C25 10%, #B923E1 100%);
+        border: none;
+border-radius: 10px;
+    }
+   .box{
+    transition:1s ;
+    cursor: pointer;
+   }
+
+   .box:hover{
+    transform:scale(0.8);
+   }
+   .box2{
+    transition:1s ;
+    cursor: pointer;
+   }
+
+   .box2:hover{
+    transform:scale(1.1);
+   }
+   .bar{
+    transition: 1s;
+   
+   }
+    .bar:hover{
+        .line{
+height: 4px;
+        }
+        transform: scale(1.1);
+
+    }
+    
+    .aspect-video {
+        aspect-ratio: 16 / 9;
+      }
+      
+      .link{
+        background: linear-gradient(270deg, #DA7C25 10%, #B923E1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      span{
+        transition: 1s;
+      }
+      span:hover {
+transform: scale(1.50);
+cursor: pointer;
+      }
