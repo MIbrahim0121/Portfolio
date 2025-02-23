@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="overflow-x-hidden">
+    <div id="services" className="overflow-x-hidden">
       <div className="heading">
         <h1 className="text-4xl font-extrabold text-center !mt-8 underline">
           MY Services

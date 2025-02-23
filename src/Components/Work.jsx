@@ -9,14 +9,17 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Work = () => {
   return (
-    <div>
+    <div id='work' className='!mt-20' >
       <div className="heading">
         <h1 className="text-4xl font-extrabold text-center !mt-8 underline">
           MY Latest Work
         </h1>
       </div>
-      <div className="cont !m-auto w-[65%] grid md:grid-cols-3 grid-cols-1 md:!m-auto !ml-5 ">
-  <div className="box2 w-full md:w-[100%] !ml-11 !p-6 !mt-8 ">
+      <div className="cont !m-auto w-[65%] grid md:grid-cols-3 grid-cols-1 md:!m-auto !ml-5 md:!mt-10 ">
+
+      <a href="https://calculator-with-react-lilac.vercel.app/" target='_blank' className="link underline hover:underline block text-center mt-2">
+
+  <div className="box2 w-full md:w-[100%] !ml-11 !p-6 !mt-8  ">
     <img className="  w-full aspect-video object-cover rounded-md" src={calc} alt="Calculator" />
     <div className='flex justify-center items-center gap-3   ' >
     <a href="https://calculator-with-react-lilac.vercel.app/" target='_blank' className="link underline hover:underline block text-center mt-2">
@@ -26,8 +29,10 @@ const Work = () => {
     </span> 
     </div>
   </div>
+  </a>
+  <a href="https://recipe-app-flame.vercel.app/" target='_blank' className="link underline hover:underline block text-center mt-2">
 
-  <div className="box2 w-full md:w-[100%] !ml-11 !p-6 !mt-8 ">
+  <div className="box2 w-full md:w-[100%] !ml-11 !p-6 !mt-8  ">
     <img className="  w-full aspect-video object-cover rounded-md" src={rec} alt="Recipe App" />
     <div className='flex justify-center items-center gap-3   ' >
     <a href="https://recipe-app-flame.vercel.app/" className="link underline hover:underline block text-center mt-2">
@@ -36,9 +41,10 @@ const Work = () => {
     </a> <span><FaArrowRightLong />
     </span> 
     </div>
-  </div>
+  </div></a>
+  <a href="https://tic-tac-toe-ruby-ten.vercel.app/" target='_blank' className="link underline hover:underline block text-center mt-2">
 
-  <div className="box2 w-full md:w-[75%] !ml-11 !p-6 !mt-8 ">
+  <div className="box2 w-full md:w-[100%] !ml-11 !p-6 !mt-8  ">
     <img className="  w-full aspect-video object-cover rounded-md" src={tic} alt="Tic Tac Toe" />
     <div className='flex justify-center items-center gap-3   ' >
     <a href="https://tic-tac-toe-ruby-ten.vercel.app/" className="link underline hover:underline block text-center mt-2">
@@ -47,9 +53,10 @@ const Work = () => {
     </a> <span><FaArrowRightLong />
     </span> 
     </div>
-  </div>
+  </div></a>
+  <a href="https://to-do-list-two-beta-64.vercel.app/" target='_blank' className="link underline hover:underline block text-center mt-2">
 
-  <div className="box2 w-full md:w-[75%] !ml-11 !p-6 !mt-8 ">
+  <div className="box2 w-full md:w-[100%] !ml-11 !p-6 !mt-8  ">
     <img className="  w-full aspect-video object-cover rounded-md" src={todo} alt="To-Do List" />
     <div className='flex justify-center items-center gap-3   ' >
     <a href="https://to-do-list-two-beta-64.vercel.app/" className="link underline hover:underline block text-center mt-2">
@@ -58,7 +65,7 @@ const Work = () => {
     </a> <span><FaArrowRightLong />
     </span> 
     </div>
-  </div>
+  </div></a>
 </div>
 
     </div>

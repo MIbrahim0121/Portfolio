@@ -1,9 +1,13 @@
 import React from "react";
 // import profile from "../assets/profile.jpg";
+import { IoIosArrowDropup } from "react-icons/io";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const About = () => {
   return (
-    <div>
+    <div id="about" >
+       <div className='md:text-6xl text-5xl fixed right-7 cursor-pointer bottom-5  ' ><AnchorLink offset={0} href='#nav' >< IoIosArrowDropup className="rounded-4xl " /></AnchorLink>
+            </div>
       <div className="!mt-20">
         <h1 className="text-4xl font-extrabold text-center !mt-7 underline ">
           About Me
