@@ -255,3 +255,7 @@ cursor: pointer;
       .btn:hover{
         transform: scale(1.04);
       }
+      footer{
+        background: #161513;
+
+      }
